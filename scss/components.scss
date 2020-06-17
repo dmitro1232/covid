@@ -1,0 +1,62 @@
+.container{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        margin: 0 20px;
+    }
+}
+
+.flx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.sect{
+    padding: 125px 0 130px 0;
+}
+
+.title{
+    font-family: $roboto;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 44px;
+    letter-spacing: 0.617px;
+    color: #112950;
+    margin: 0;
+}
+
+.title-sm{
+    font-family: $roboto;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.308px;
+    color: #112950;
+}
+
+.title-md{
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.456px;
+    color: #112950;
+}
+
+.text{
+    font-family: $inter;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #324B72;
+}
