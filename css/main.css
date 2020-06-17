@@ -502,7 +502,8 @@ body {
     .footer .social__list li {
       padding-left: 24px; }
 
-.footer__list-item {
+.footer__list-item,
+.footer__list a {
   font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 15px;

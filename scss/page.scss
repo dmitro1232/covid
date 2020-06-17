@@ -559,7 +559,8 @@ body {
     }
 
     &__list{
-        &-item{
+        &-item, 
+        a{
             font-family: $inter;
             font-weight: normal;
             font-size: 15px;
